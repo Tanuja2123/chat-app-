@@ -7,7 +7,7 @@ import Message from "../Message/Message";
 import Rstb from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
 
-const ENDPOINT = "http://localhost:4500/";
+const ENDPOINT = "chat-app--alpha.vercel.app";
 let socket;
 
 const Chat = () => {
