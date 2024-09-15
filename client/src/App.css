@@ -54,10 +54,10 @@ body {
   transform: scale(3.2);
 }
 .chatBox{
-  height: 80% !important; 
+  height: 78% !important; 
 }
 .inputBox{
-  height: 10% !important;
+  height: 14% !important;
 }
 #chatInput{
   padding: 4vw !important;
