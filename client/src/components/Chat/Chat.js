@@ -7,7 +7,7 @@ import Message from "../Message/Message";
 import Rstb from "react-scroll-to-bottom";
 import closeIcon from "../../images/closeIcon.png";
 
-const ENDPOINT = "https://chat-app--alpha.vercel.app";
+const ENDPOINT = "https://chatapp-b-production.up.railway.app/";
 
 let socket;
 
