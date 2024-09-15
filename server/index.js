@@ -9,7 +9,12 @@ const port = process.env.PORT || 4000;
 
 const users = [{}];
 
-app.use(cors());
+app.use(cors({
+  origin: "https://chat-app-c.vercel.app", // You can restrict this to your front-end domain, e.g., 'https://your-frontend.com'
+  methods: ["GET", "POST"],
+  credentials: true
+}));
+
 app.get("/", function (req, res) {
   res.send("Its working");
 });
